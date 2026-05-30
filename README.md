@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# Portfolio
+# Portfolio Website
+
+Built using **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. The website showcases my projects, skills, education, experience, publications, and professional profiles through an interactive and animated interface.
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+## Features
+
+- Responsive design
+- Smooth scrolling navigation
+- Animated UI and transitions
+- Project showcase with GitHub links
+- Experience, Education, and Publications sections
+- Resume access and contact links
+>>>>>>> a110b1abb0ed4fca447ed21187a9bcedcefe5896
