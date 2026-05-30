@@ -19,6 +19,3 @@ Built using **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. The
 - Project showcase with GitHub links
 - Experience, Education, and Publications sections
 - Resume access and contact links
-
-npm install
-npm run dev
