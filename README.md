@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -37,6 +38,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 =======
 # Portfolio
+=======
+>>>>>>> 277a5ffc13b53f4bbbcf3144692f9c7f6459d188
 # Portfolio Website
 
 Built using **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. The website showcases my projects, skills, education, experience, publications, and professional profiles through an interactive and animated interface.
