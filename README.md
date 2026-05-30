@@ -1,4 +1,3 @@
-# Portfolio
 # Portfolio Website
 
 Built using **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. The website showcases my projects, skills, education, experience, publications, and professional profiles through an interactive and animated interface.
