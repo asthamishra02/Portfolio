@@ -20,7 +20,5 @@ Built using **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. The
 - Experience, Education, and Publications sections
 - Resume access and contact links
 
-
-```bash
 npm install
 npm run dev
