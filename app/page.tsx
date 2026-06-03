@@ -717,11 +717,29 @@ export default function Home() {
         <p className="text-zinc-400 group-hover:text-zinc-300 transition-colors duration-300 mt-3 italic">
           Narayana Schools
         </p>
-         <p>
-            <span className="text-zinc-400 mt-2">Key Coursework:</span> Physics, Chemistry, Mathematic, English and Physical Education          </p>
+         {/* <p>
+            <span className="text-zinc-400">Key Coursework:</span> Physics, Chemistry, Mathematic, English and Physical Education          </p>
           <p>
             <span className="text-zinc-400 mt-2">Academic Standing:</span> Percentage: 92.6%
+          </p> */}
+          <div className="mt-4 space-y-2 text-sm text-zinc-500 group-hover:text-zinc-400 transition-colors duration-300">
+          <p>
+            <span className="text-zinc-400">Key Coursework:</span> Physics, Chemistry, Mathematics, English and Physical Education
+
+
           </p>
+          {/* <p>
+            <span className="text-zinc-400">Capstone Project:</span> Built an AI-powered yoga posture detection web application using computer vision and deep learning models such as OpenPose, PoseNet, and MobileNet for real-time pose analysis. The system provides live posture feedback alongside step-by-step guided instructions through an interactive web interface built with HTML, CSS, JavaScript, and Python.
+
+          </p> */}
+          <p>
+            <span className="text-zinc-400">Academic Standing:</span> Percentage: 92.6%
+          </p>
+        </div>
+
+
+
+
       </div>
 
       {/* Right Side: School Logo in Circular White Frame (Shifted close to the text) */}
