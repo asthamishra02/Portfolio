@@ -245,59 +245,62 @@ export default function Home() {
             className="relative min-h-screen"
           >
             {/* Navbar */}
-            <motion.nav
-              initial={{ y: -80, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.01, duration: 1 }}
-              className="sticky top-0 z-50 flex justify-center pt-10"
-            >
-              <div className="flex items-center gap-8 text-zinc-200 text-sm md:text-base font-medium backdrop-blur-md bg-white/5 px-8 py-4 rounded-full border border-white/10">
-                <button
-                  onClick={() => scrollToSection("skills")}
-                  className="hover:text-white transition duration-300"
-                >
-                  Skills
-                </button>
-                <button
-                  onClick={() => scrollToSection("education")}
-                    className="hover:text-white transition duration-300">
-                  Education
-                </button>
-                <button
-                  onClick={() => scrollToSection("experience")}
-                    className="hover:text-white transition duration-300">     
-                  Experience
-                </button>
-                <button
-                   onClick={() => scrollToSection("publications")}
-                    className="hover:text-white transition duration-300">
-                      Publications
-                 </button>
-
-<button
-  onClick={() => scrollToSection("projects")}
-  className="hover:text-white transition duration-300"
+<motion.nav
+  initial={{ y: -80, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ delay: 0.01, duration: 1 }}
+  // Reduced top padding on mobile (pt-4) and added side padding (px-4) to avoid edge clipping
+  className="sticky top-0 z-50 flex justify-center pt-4 md:pt-10 px-4"
 >
-  Projects
-</button>
-
-                {/* <button className="hover:text-white transition duration-300">
-                  Resume
-                </button> */}
-        <a
-  href="/Astha_Mishra_Resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="hover:text-white transition duration-300"
->
-  Resume
-</a>
-                
-
-
-
-              </div>
-            </motion.nav>
+  {/* 
+    Key Changes for Mobile:
+    - flex-wrap: Allows links to wrap to a new line on narrow phone screens
+    - gap-x-4 md:gap-x-8 & gap-y-2.5: Compact spacing horizontally, clean gap vertically when wrapped
+    - text-xs md:text-base: Scaled down text size
+    - px-6 md:px-8 & py-3 md:py-4: Scaled down padding
+    - rounded-[20px] md:rounded-full: Clean border radius on mobile that supports wrapping beautifully
+  */}
+  <div className="flex flex-wrap items-center justify-center gap-x-4 md:gap-x-8 gap-y-2.5 text-zinc-200 text-xs md:text-base font-medium backdrop-blur-md bg-white/5 px-6 md:px-8 py-3 md:py-4 rounded-[20px] md:rounded-full border border-white/10 max-w-md md:max-w-none">
+    <button
+      onClick={() => scrollToSection("skills")}
+      className="hover:text-white transition duration-300"
+    >
+      Skills
+    </button>
+    <button
+      onClick={() => scrollToSection("education")}
+      className="hover:text-white transition duration-300"
+    >
+      Education
+    </button>
+    <button
+      onClick={() => scrollToSection("experience")}
+      className="hover:text-white transition duration-300"
+    >     
+      Experience
+    </button>
+    <button
+      onClick={() => scrollToSection("publications")}
+      className="hover:text-white transition duration-300"
+    >
+      Publications
+    </button>
+    <button
+      onClick={() => scrollToSection("projects")}
+      className="hover:text-white transition duration-300"
+    >
+      Projects
+    </button>
+    <a
+      href="/Astha_Mishra_Resume.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition duration-300"
+    >
+      Resume
+    </a>
+  </div>
+</motion.nav>
 
             {/* MAIN CONTENT */}
             <div className="relative z-10 flex flex-col lg:flex-row items-center lg:items-start justify-between px-10 lg:px-20 mt-16 gap-16">
