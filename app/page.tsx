@@ -801,32 +801,27 @@ export default function Home() {
           </p>
 
           <p>
-            &gt; Data Integration: Engineered a high-dimensional dataset by fusing field-collected ground-truth targets (Tree Height, Canopy Diameter, Basal Area) 
-            across 7 mangrove communities with multi-band SAR remote sensing data (polarimetric backscatter, texture metrics, and vegetation indices).
+            &gt; Built a multi-source dataset combining polarimetric backscatter, texture features, vegetation indices, and ground-truth measurements from 7 mangrove communities.
           </p>
 
           <p>
-            &gt; Machine Learning Framework: Developed and benchmarked three distinct machine learning architectures: XGBoost, Random Forest, and Support Vector Regression (SVR)
-            to accurately map and predict non-linear environmental attributes from satellite imagery.
+            &gt; Developed and evaluated XGBoost, Random Forest, and Support Vector Regression (SVR) models for biomass and environmental parameter prediction.
          </p>
 
          <p>
-            &gt; Hyperparameter Optimization: Utilized the Optuna framework to automate fine-tuning and mitigate overfitting, systematically optimizing architectural complexities including tree depth, learning rates, regularization penalties (L1/L2), and kernel influences.
+            &gt; Optimized model performance using Optuna-based hyperparameter tuning, reducing overfitting and improving generalization.
          </p>
 
           <p>
-            &gt; Feature Importance & Fusion: Conducted feature relevance analysis using Gini Importance and Gain metrics, proving that Multi-Source Feature Fusion (retaining all SAR, texture, and vegetation features simultaneously) 
-            yielded superior model generalization compared to feature elimination.
+            &gt; Performed feature importance analysis, demonstrating that multi-source feature fusion outperformed feature selection approaches.
          </p>
 
           <p>
-            &gt; Data Augmentation: Overcame field data scarcity limitations by implementing a synthetic data generation strategy using Nearest Neighbor interpolation, 
-            drastically reducing model overfitting and stabilizing performance in data-poor conditions.
+            &gt; Addressed limited field data through synthetic data augmentation using nearest-neighbor interpolation techniques.
          </p>
 
           <p>
-            &gt; Results & Block Deployment: Achieved high predictive accuracy with XGBoost emerging as the top model (R2_scores up to 0.96–0.97). Engineered a scalable deployment pipeline using the Rasterio library to process 
-            large satellite scenes in memory-efficient spatial blocks and output production-grade GeoTIFF maps.
+            &gt; Achieved high predictive accuracy (R² up to 0.85–0.90) with XGBoost and deployed a scalable GeoTIFF mapping pipeline using Rasterio.
          </p>
         </div>
       </div>
@@ -910,7 +905,7 @@ biophysical indices with ground measurements to achieve reliable parameter estim
 >
   {/* Replaced -ml-2 md:-ml-4 with text-center to center the Projects heading */}
 <h2
-  className={`text-4xl md:text-4xl lg:text-5xl text-zinc-100 mb-12 -ml-3 md:-ml-9 tracking-wide ${mukta.className}`}
+  className={`text-4xl md:text-4xl lg:text-5xl text-zinc-100 mb-12 -ml-4 md:-ml-9 tracking-wide ${mukta.className}`}
 >
   Projects
 </h2>
