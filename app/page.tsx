@@ -907,7 +907,7 @@ biophysical indices with ground measurements to achieve reliable parameter estim
 >
   {/* Replaced -ml-2 md:-ml-4 with text-center to center the Projects heading */}
 <h2
-  className={`text-4xl md:text-4xl lg:text-5xl text-zinc-100 mb-12 -ml-3 md:-ml-12 tracking-wide ${mukta.className}`}
+  className={`text-4xl md:text-4xl lg:text-5xl text-zinc-100 mb-12 -ml-3 md:-ml-10 tracking-wide ${mukta.className}`}
 >
   Projects
 </h2>
